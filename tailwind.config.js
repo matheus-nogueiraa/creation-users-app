@@ -5,11 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'meu-azul': '#00BCFF',
-        'light': '#40CFFF',
-        'default': '#00BCFF',
-        'dark': '#1D232A',
-        'darkest': '#0B0D11',
+        'light-blue': '#40CFFF',
+        'primary-blue': '#00BCFF',
+        'dark-blue': '#1D232A',
+        'darkest-ble': '#0B0D11',
       },
     },
   },

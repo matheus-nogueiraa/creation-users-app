@@ -1,14 +1,13 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+@import "tailwindcss";
+@plugin "daisyui";
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #0B0D11;
+@theme {
+  --color-light-blue: #40CFFF;
+  --color-primary-blue: #00BCFF;
+  --color-dark-blue: #1D232A;
+  --color-darkest-blue: #FF00A8;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+:root {
+  background-color: var(--color-dark);
 }
